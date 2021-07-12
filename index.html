@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kompetenz-Check</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Kompetenz-Check HTML & CSS Woche 1</h1>
+        </header>
+        <main>
+            <article>
+                <section>
+                    <h2>Übungstabelle</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="5">Adressdaten</th>
+                            </tr>
+                            <tr class="subjects-of-table">
+                                <th>Vorname</th>
+                                <th>Nachname</th>
+                                <th>Adresse</th>
+                                <th>Telefonnummer</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Susanne</td>
+                                <td>Test</td>
+                                <td>Teststraße 1</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Peter</td>
+                                <td>Test</td>
+                                <td>Teststraße 1</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Florian</td>
+                                <td>Test</td>
+                                <td>Teststraße 1</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Lola</td>
+                                <td>Test</td>
+                                <td>Teststraße 1</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Ajab</td>
+                                <td>Test</td>
+                                <td>Teststraße 1</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Joschka</td>
+                                <td>Test</td>
+                                <td>Teststraße 1</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Marianne</td>
+                                <td>Test</td>
+                                <td>Teststraße 1</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Hans</td>
+                                <td>Test</td>
+                                <td>Teststraße 1</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Karl</td>
+                                <td rowspan="2">König</td>
+                                <td rowspan="2">Teststraße 9</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Maria</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Susanne</td>
+                                <td rowspan="2">Gruber</td>
+                                <td rowspan="2">Teststraße 11</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                            <tr>
+                                <td>Elisabeth</td>
+                                <td>0660 00 00 000</td>
+                                <td>test@test.at</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section>
+                    <form action="#.html" method="post">
+                        <div>
+                            <label for="vorname">Vorname:*</label><br>
+                            <input type="text" name="vorname" size="39">
+                        </div>
+                        <div>
+                            <label for="nachname">Nachname:*</label><br>
+                            <input type="text" name="nachname" size="39">
+                        </div>
+                        <div>
+                            <label for="adresse">Adresse:</label><br>
+                            <input type="text" name="adresse" size="39">
+                        </div>
+                        <div>
+
+                            <label for="telefon">Telefon:</label><br>
+                            <input type="text" name="telefon" size="39"> 
+                        </div>
+                        <div>
+                            <label for="email">Email:*</label><br>
+                            <input type="email" name="email" size="39">
+                        </div>
+                        <div>
+                            <label for="nachricht">Ihre Nachricht</label><br>
+                            <textarea name="nachricht" id="nachricht" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <label for="haustier">Wähle dein Lieblingshaustier:</label><br>
+                            <input type="radio" id="drache" value="drache">
+                            <label for="drache">Drache</label><br>
+                            <input type="radio" id="trex" value="trex">
+                            <label for="trex">T-Rex</label>
+                        </div>
+                        <div>
+                            <label for="nahrung">Was ist dein Haustier gerne?</label>
+                            <select name="nahrung" id="nahrung">
+                                <option value="1">Regenbögen</option>
+                                <option value="2">Wasserfälle</option>
+                                <option value="3">Pfauenfedern</option>
+                                
+                            </select>
+                        </div>
+                        <div>
+                            <input type="button" value="Absenden">
+                        </div>
+
+                    </form>
+                </section>
+            </article>
+        </main>
+    </div>
+
+</body>
+
+</html>

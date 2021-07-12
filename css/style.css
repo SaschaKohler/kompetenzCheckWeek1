@@ -1,0 +1,57 @@
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+
+}
+td,tr,th{
+    border: 1px solid black;
+    padding:.2rem;
+}
+main{
+    display:flex;
+    justify-content: center;
+  
+}
+article h2{
+    text-align:center;
+ }
+tbody tr:nth-child(odd){
+    background: rgb(174, 217, 247);
+}
+thead tr:nth-child(odd){
+    background:rgb(0, 0, 124);
+    color:white;
+}
+thead tr:nth-child(even){
+    background:mediumturquoise;
+    color:rgb(0, 0, 102);
+   
+}
+form{
+    width:70%;
+    margin:2em auto;
+    background: rgb(174, 217, 247);
+    border-radius: 2%;
+    padding:1em;
+}
+label{
+    text-align: left;
+}
+
+input[type=button] {
+    background:cornflowerblue;
+    color:white;
+    cursor:pointer;
+    padding:1em;
+    border:1px solid black;
+    border-radius: 2%;
+}
+input[type=button]:hover {
+    background: rgb(177, 200, 241);
+    color:black;
+
+}
+
+form div{
+    padding: 0.4em 
+}
